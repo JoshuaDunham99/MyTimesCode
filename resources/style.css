@@ -7,7 +7,7 @@
 }
 
 .thelist {
-display: inline-flex;
+display: flex;
 font-weight: bold;
 flex-flow: row wrap;
 justify-content: space-around;
@@ -23,5 +23,9 @@ width: 200px;
 }
 
 ul, li {
- list-type: none;
+ list-style: none;
+}
+
+.logo {
+  background-image: url("/resources/images/logo.jpg");
 }
